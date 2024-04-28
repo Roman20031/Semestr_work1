@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/img/guitar_girl_by_ahnimah_db4qbn-375w-2x.jpg");
+    /* https://img.lovepik.com/bg/20231221/Stunning-Background-Enhances-Electric-Guitar-on-Rock-Setup_2667979_wh860.jpg!/fw/860 */
+
+    /* https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/315fd278-6a78-46a0-94f6-e7d0b3a89059/d4m75e8-17c9db01-3b5b-4dd6-a68f-a1576c051c43.jpg/v1/fit/w_721,h_600,q_70,strp/guitar_by_anastasia1519_d4m75e8-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjAwIiwicGF0aCI6IlwvZlwvMzE1ZmQyNzgtNmE3OC00NmEwLTk0ZjYtZTdkMGIzYTg5MDU5XC9kNG03NWU4LTE3YzlkYjAxLTNiNWItNGRkNi1hNjhmLWExNTc2YzA1MWM0My5qcGciLCJ3aWR0aCI6Ijw9NzIxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.XXvzDM2VsY5pK5V_l-SBwuvRCQSOdc0sBOQI4MiWH2c */
+
+    /* https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c02285ed-d9ec-439b-aa46-84a3fe09ead8/db4qbn-12775bdb-94c6-44d6-b14f-37816953d037.jpg/v1/fit/w_700,h_700,q_70,strp/guitar_girl_by_ahnimah_db4qbn-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzAwIiwicGF0aCI6IlwvZlwvYzAyMjg1ZWQtZDllYy00MzliLWFhNDYtODRhM2ZlMDllYWQ4XC9kYjRxYm4tMTI3NzViZGItOTRjNi00NGQ2LWIxNGYtMzc4MTY5NTNkMDM3LmpwZyIsIndpZHRoIjoiPD03MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.rgZlko_F4uVo3tZ1_8vcQhdEGnDpEwe_6D_66zaIXak */
+
+    /* https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/be0361f1-9ef7-432c-9c0d-35e3ff3d646e/dl1pb-c9ac1a54-cdb3-4a33-a559-ab57ab354ba1.jpg/v1/fit/w_750,h_520,q_70,strp/guitar_and_amp_by_midiman_dl1pb-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTkyIiwicGF0aCI6IlwvZlwvYmUwMzYxZjEtOWVmNy00MzJjLTljMGQtMzVlM2ZmM2Q2NDZlXC9kbDFwYi1jOWFjMWE1NC1jZGIzLTRhMzMtYTU1OS1hYjU3YWIzNTRiYTEuanBnIiwid2lkdGgiOiI8PTg1NCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.SMy6OZCd8XlKp2ZWS_IiwmnUKvprl8UP4Y1qYwCCIHE */
+
+    /* https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c463bcc-19d9-47e8-97e2-58f258570188/d5vtcs-426a9df0-c2d5-46c3-bc35-acbc82ada2c2.jpg/v1/fill/w_1032,h_774,q_70,strp/guitar_by_shattered_minds_d5vtcs-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTYwIiwicGF0aCI6IlwvZlwvM2M0NjNiY2MtMTlkOS00N2U4LTk3ZTItNThmMjU4NTcwMTg4XC9kNXZ0Y3MtNDI2YTlkZjAtYzJkNS00NmMzLWJjMzUtYWNiYzgyYWRhMmMyLmpwZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.0GyULUEZN9MZNA8umUQYm8_2OjXw4TMvKFck81Skg3c */
+
+
+  }
+
+  header {
+    width: 100%;
+    height: 100px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    position: relative;
+    background-color: none;
+    background-color: gray;
+  }
+  header .wrapper {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    padding: 0 10px;
+    background: gray;
+    z-index: 10;
+    position: relative;
+  }
+  header .wrapper-logo {
+    width: 90px;
+    height: 90px;
+  }
+  header .site-name{
+    display: flex;
+    margin-right: auto;
+  }
+  header .wrapper-logo img {
+    width: 100%;
+    height: 100%;
+  }
+  header .wrapper-hamburger {
+    width: 50px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    /* margin-right: 20px; */
+    margin-left: 300px;
+    transition: transform ease 1s;
+  }
+  header .wrapper-hamburger span {
+    transition: transform ease 1s;
+    transition: ease 1s;
+    border: 2px solid #000;
+  }
+  @media only screen and (min-width: 768px) {
+    header .wrapper-hamburger {
+      display: none;
+
+    }
+   .wrapper-logo{
+    height: 50px;
+    width: 50px;
+   }
+  }
+  header .wrapper .is-active {
+    transform: rotate(360deg);
+  }
+  header .wrapper .is-active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 13px);
+  }
+  header .wrapper .is-active span:nth-child(2) {
+    opacity: 0;
+  }
+  header .wrapper .is-active span:nth-child(3) {
+    transform: rotate(-45deg) translate(4px, -13px);
+  }
+  header nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-350px);
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    transition: transform ease 1s;
+    background-color: gray;
+  }
+  header nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: ease 0.3s;
+  }
+  @media only screen and (min-width: 768px) {
+    header nav {
+      z-index: 10;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-right: 60px;
+      transform: translate(-50%, -150%);
+      max-width: 1300px;
+      background: none;
+      box-shadow: none;
+    }
+    header nav a:hover {
+      color: #f00;
+    }
+  }
+  header .is-open {
+    transform: translateX(-50%) translateY(0px);
+  }
+
+main{
+  max-width: 1300px;
+  margin: auto;
+  padding: 36px 10px;
+  background-color: white;
+  border: 10px solid;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+  align-items: center;
+  justify-content: center;
+  /* border: 10px solid #000; */
+}
+
+.Guitar-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 800px;
+  gap: 36px;
+  text-align: center;
+  transform: scale(1);
+  transition: ease .3s;
+}
+
+.Guitar-card .img{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Guitar-card .img img{
+  height: 100%;
+}
+
+.Guitar-card:hover{
+  transform: scale(1.03);
+  border: 1px solid;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+footer{
+  width: 100%;
+  background-color: grey;
+}
+
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    flex-direction: column;
+  }

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/style/style.css">
+    <!-- Musíte pro script.js nastavit defer, díky tomu se kód čte až na konci. Díky tomu funguje querry selektory v js -->
+    <script src="/script/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <!-- Wrapper dáváme kvůli tomu, aby na velkých monitorech nebyl header moc roztáhlý
+             Obecně se bere maximální šířka cca 1300px
+        -->
+        <div class="wrapper">
+            <!-- 
+                Zde je lepší si všechny sekce dát na itemy v divech, aby se dobře s nima dělalo přes display flex
+                Využívejte přehlednost v kódu pomocí class, pište první rodiče a pak potomka, přes stylus/SCSS můžeme vnořovat lépe selektory a kód je čistější
+             -->
+            <div class="wrapper-logo">
+                <img src="/img/icons8-guitar-100.png" alt="">
+
+            </div>
+            <div class="site-name">
+                <h2>Guitar Wiki</h2>
+            </div>
+            <!--
+                Zde vytváříme ikonu hamburgeru, který je rozanimovaný
+                Je lepší si udělat čárky pomocí spanu, protože se pak dobře mohou rozanimovat
+                Nechme spany prázný, protože grafikcou podobu jím dáváme pomocí css
+            -->
+            <div class="wrapper-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <!-- 
+            Jedíný nav je mimo wrapper, důvod je takový, aby se na mobilním zařízení schovával pod wrapper.
+            Pokud bychom to chtěli pod header, aby se schovával, je to těžší varianta, má konflikt s headrem, pokud je nav jako absolute
+            Na PC verze se pak mění z-index a přizpůsobuje se na prostředek a itemy v navu pak ovládáme pomocí displey flexu
+         -->
+        <nav>
+            <!--
+                # Je prázdný odkaz, bude nás odkazovat na jednu na stejnou stránku
+            -->
+            <a href="#">Home page</a>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <a class="Guitar-card" href="https://www.thomann.de/cz/harley_benton_d_120ce_nt.htm">
+                <div class="img">
+                    <img src="img/Harley Benton D-120CE NT.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Harley Benton D-120CE NT Lorem </h3>
+                </div>
+            </a>
+            <a class="Guitar-card" href="#">
+                <div class="img">
+                    <img src="img/Harley Benton DC-200 BK Student Series.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Harley Benton DC-200 BK Student Series Lorem </h3>
+                </div>
+            </a>
+            <a class="Guitar-card" href="#">
+                <div class="img">
+                    <img src="img/Harley Benton Amarok-7 BKNT Flame Burst.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Harley Benton Amarok-7 BKNT Flame Burst Lorem ?</h3>
+                </div>
+            </a>
+            <a class="Guitar-card" href="#">
+                <div class="img">
+                    <img src="img/Harley Benton D-120CE NT.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Harley Benton D-120CE NT Lorem </h3>
+                </div>
+            </a>
+            <a class="Guitar-card" href="#">
+                <div class="img">
+                    <img src="img/Harley Benton DC-200 BK Student Series.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Harley Benton DC-200 BK Student Series Lorem </h3>
+                </div>
+            </a>
+            <a class="Guitar-card" href="#">
+                <div class="img">
+                    <img src="img/Harley Benton Amarok-7 BKNT Flame Burst.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Harley Benton Amarok-7 BKNT Flame Burst Lorem ?</h3>
+                </div>
+            </a>
+            <a class="Guitar-card" href="#">
+                <div class="img">
+                    <img src="img/Harley Benton D-120CE NT.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Harley Benton D-120CE NT Lorem </h3>
+                </div>
+            </a>
+            <a class="Guitar-card" href="#">
+                <div class="img">
+                    <img src="img/Harley Benton DC-200 BK Student Series.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Harley Benton DC-200 BK Student Series Lorem </h3>
+                </div>
+            </a>
+            <a class="Guitar-card" href="#">
+                <div class="img">
+                    <img src="img/Harley Benton Amarok-7 BKNT Flame Burst.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Harley Benton Amarok-7 BKNT Flame Burst Lorem ?</h3>
+                </div>
+            </a>
+            <a class="Guitar-card" href="#">
+                <div class="img">
+                    <img src="img/Harley Benton D-120CE NT.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Harley Benton D-120CE NT Lorem </h3>
+                </div>
+            </a>
+            <a class="Guitar-card" href="#">
+                <div class="img">
+                    <img src="img/Harley Benton DC-200 BK Student Series.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Harley Benton DC-200 BK Student Series Lorem </h3>
+                </div>
+            </a>
+            <a class="Guitar-card" href="#">
+                <div class="img">
+                    <img src="img/Harley Benton Amarok-7 BKNT Flame Burst.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Harley Benton Amarok-7 BKNT Flame Burst Lorem ?</h3>
+                </div>
+            </a>
+            
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h2>About me:</h2>
+            <p>I am just a regular guy who loves to play guitar sometimes. And crafts this Wiki in his free time.</p>
+            <h2>Credits:</h2>
+            <a href="https://www.thomann.de/cz/index.html">https://www.thomann.de/cz/index.html</a>
+            <a href="https://www.deviantart.com">https://www.deviantart.com</a>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
