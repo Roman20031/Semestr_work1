@@ -196,3 +196,7 @@ footer{
     margin: auto;
     flex-direction: column;
   }
+  .footer a:hover {
+    color: #f00;
+    transition: ease 0.3s;
+  }
