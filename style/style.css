@@ -20,7 +20,7 @@ body {
     height: 100px;
     box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
     position: relative;
-    background-color: none;
+    
     background-color: gray;
   }
   header .wrapper {
@@ -56,11 +56,11 @@ body {
     cursor: pointer;
     /* margin-right: 20px; */
     margin-left: 300px;
-    transition: transform ease 1s;
+    transition: transform ease 1s; /*ease - плавність анімації*/
   }
   header .wrapper-hamburger span {
     transition: transform ease 1s;
-    transition: ease 1s;
+    /* transition: ease 1s; */
     border: 2px solid #000;
   }
   @media only screen and (min-width: 768px) {
